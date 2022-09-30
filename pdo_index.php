@@ -1,7 +1,7 @@
 <?php
     require_once "./DB.php";
 
-    $db = new DB('localhost','codeigniter','abhi','abhishek@1718');
+    $db = new DB('localhost','codeigniter','root','');
 
 
     // Calling the db object query function 
