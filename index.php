@@ -10,7 +10,7 @@ curl_setopt($abhi,CURLOPT_URL,"https://www.amazon.in/s?k=gaming+laptops");
 curl_setopt($abhi,CURLOPT_SSL_VERIFYPEER,true);
 
 // This line help you to store the response in the vairable
-curl_setopt($abhi,CURL_RETURNTRANSFER,true);
+// curl_setopt($abhi,CURL_RETURNTRANSFER,true);
 
 // Executing the curl
 curl_exec($abhi);
